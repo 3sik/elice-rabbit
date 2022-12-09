@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* header */
+
+header {
+    height: 53px;
+    background-color: gray;
+}
+
+header > nav > ul {
+    display: flex;
+    justify-content: left;
+    margin: 0;
+    padding: 0;
+}
+
+header > nav > ul > li {
+    list-style: none;
+    
+    padding: 15px;
+    
+}
+
+header > nav > ul > li > a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+header > nav > ul > li > a:hover {
+    background-color: darkgray;
+    cursor: pointer;
+    letter-spacing: 5px;
+    transition-duration: .3s;
+    transition-timing-function: linear;
+}
+
+
+
+/* Main */
+
+
+
+main {
+    max-width: 800px;
+    padding: 50px;
+    justify-content: center;
+}
+
+main article {
+    
+}
+
+main .me {
+    height: 450px;
+}
+
+main .me h1 {
+    width: max-content;
+    height: 70px;
+    font-size: 50px;
+     font-weight: 700;
+}
+
+main .me div {
+    width: 350px;
+    height: 350px;
+    background-color: aqua;
+    background-image: url("https://elicer-sumin.github.io/intro-me/profile.png");
+    background-size: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+main .me div:hover {
+    background-position: center;
+    background-size: 500px;
+    transition-duration: .5s;
+    transition-delay: 1;
+    transition-timing-function: linear;
+}
+
+main .content {
+    display:grid;
+    grid-template-columns: 400px 1fr;
+}
+
+main .content section > p strong {
+    font-weight: 700;
+}
+main .content section ul li{
+ list-style-type: disc;    
+}
+
+main .content section ol {
+    list-style-type: decimal;
+} 
+
+main .content section h2 {
+    margin: 30px 0 10px 0 ;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+/* FOOTER */
+
+footer {
+    clear: both;
+    width: 100%;
+    height: 80px;
+    background-color: gray;
+    padding: 10px;
+}
+
+footer > p {
+    margin: 20px;
+}
